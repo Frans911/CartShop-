@@ -1,0 +1,26 @@
+page-home {
+    .body ion-item{
+        margin: 1em;
+        width: 90%;
+        border-radius: 5px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .body ion-input{
+        color: white; 
+    } 
+    ion-navbar.toolbar {
+        min-height: 60px;
+      }  
+      .list{
+          animation: 2s animate ease-in; 
+      }
+      @keyframes animate {
+          0%{
+              opacity: 0;
+              transform: translateY(15px)
+          }
+          100%{
+              opacity: 1;
+          }
+      }
+}
